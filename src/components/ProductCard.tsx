@@ -13,7 +13,12 @@ export default function ProductCard({ product }: Props) {
         padding: "1rem",
       }}
     >
-      <img src={product.thumbnail} alt={product.title} width={150} />
+      <img
+        className="product-image"
+          src={product.thumbnail}
+        alt={product.title}
+        width={150}
+      />
 
       <h3>{product.title}</h3>
 
